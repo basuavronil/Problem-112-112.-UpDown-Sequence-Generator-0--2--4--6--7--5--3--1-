@@ -3,7 +3,7 @@
 module abc_tb;
 
   reg  clk, rst, en;
-  wire out;
+  wire [2:0] out;
 
   // DUT
   abc dut (
